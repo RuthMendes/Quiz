@@ -23,7 +23,7 @@ export const Question = ({ result, name, isHidden }: Props) => {
       </div>
       <footer className="card-footer p-2">
         <button type="submit" className="card-footer-item button is-info">
-          Submit answer
+          Enviar resposta
         </button>
       </footer>
     </div>

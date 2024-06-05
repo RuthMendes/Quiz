@@ -46,7 +46,7 @@ export const Quiz = () => {
         })}
         {error && (
           <div className="message is-danger mt-4">
-            <div className="message-body">Please select one answer</div>
+            <div className="message-body">Por favor selecione uma resposta</div>
           </div>
         )}
       </Form>
