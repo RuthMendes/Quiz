@@ -16,7 +16,7 @@ export const Quiz = () => {
   return (
     <Formik initialValues={initialValues} onSubmit={(values) => {
       setError(false);
-      if (values.answers.length !== activeQuestion + 1) {
+      if (values.answers.length !== activeQuestion +  1) {
         setError(true);
         return;
       }
