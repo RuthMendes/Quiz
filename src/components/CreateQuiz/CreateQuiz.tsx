@@ -33,7 +33,7 @@ export const CreateQuiz = () => {
             const res = await fetch(url);
             const data: TriviaApiResponse = await res.json();
             if (data.response_code === 1) {
-              setError("Not enough results. Please try again.");
+              setError("Não há resultados suficientes.");
               return;
             }
             // save results to global provider to use questions/answers in quiz
